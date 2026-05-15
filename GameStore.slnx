@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AspireAppHost/AspireAppHost.csproj" Id="f5093028-81df-43da-b668-d97ac3214329" />
+  <Project Path="GameStore.Api/GameStore.Api.csproj" />
+  <Project Path="ServiceDefaults/ServiceDefaults.csproj" Id="557e082f-4dd1-499b-841f-a3876a866e42" />
+</Solution>
