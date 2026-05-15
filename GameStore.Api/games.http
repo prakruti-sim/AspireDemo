@@ -1,10 +1,12 @@
-GET http://localhost:5159/games
+@HostAddress = http://gamestore-api-aspireapphost.dev.localhost:5159
+
+GET {{HostAddress}}/games
 
 ###
-GET http://localhost:5159/games/1
+GET {{HostAddress}}/games/1
 
 ###
-POST http://localhost:5159/games
+POST {{HostAddress}}/games
 Content-Type: application/json
 
 {
@@ -15,7 +17,7 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:5159/games/2
+PUT {{HostAddress}}/games/2
 Content-Type: application/json
 
 {
@@ -26,11 +28,11 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:5159/games/3
+DELETE {{HostAddress}}/games/3
 
 ###
-GET http://localhost:5159/alive
+GET {{HostAddress}}/alive
 
 ###
-GET http://localhost:5159/health
+GET {{HostAddress}}/health
 
